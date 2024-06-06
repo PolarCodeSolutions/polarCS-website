@@ -1,0 +1,9 @@
+.bg-nav {
+    background-color: #001539;
+    text-decoration-color: white;
+}
+
+.bg-nav a {
+    color: white;
+    font-size: 1.25rem;
+}
