@@ -10,9 +10,10 @@
     font-size: 1.25rem;
 }
 
-.logo-size {
-    width: 1rem;
-    padding-top: 3rem;
+.logo-size img {
+    width: 250px;
+    margin-left: 5rem;
+    margin-right: 5rem;
 }
 
 /*--------------- FOOTER----------------*/
