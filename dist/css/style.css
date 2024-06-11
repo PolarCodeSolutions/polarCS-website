@@ -16,3 +16,21 @@ body {
 main {
     padding-top: 2rem;
 }
+
+.container-space {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+/*Banner 1 Hva vi kan tilby*/
+
+.banner-en {
+    padding-left: 2rem;
+}
+
+.banner-en h3 {
+    font-size: 32px;
+}
+.banner-en h4 {
+    font-size: 18px;
+}
