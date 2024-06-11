@@ -1,0 +1,18 @@
+html {
+    margin: 0;
+    height: 100%;
+    min-height: 100%;
+}
+
+body {
+    background-image: url(/img/nordlys-komprimert.png);
+    background-size: cover;
+
+
+    margin: 0;
+    font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+    padding-top: 2rem;
+}
