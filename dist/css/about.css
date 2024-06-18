@@ -1,0 +1,10 @@
+.container-info {
+    padding: 0.5rem;
+    margin: 2rem 0 2rem 0;
+    color: whitesmoke;
+}
+
+.litt-om h1 {
+    color: white;
+    text-wrap: border;
+}
