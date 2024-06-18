@@ -1,20 +1,25 @@
 {
-  "name": "polarcs-website",
-  "version": "1.0.0",
-  "description": "Repo for PolarCodeSolutions's homepage",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "sass src/scss:dist/css",
-    "watch": "sass --watch src/scss:dist/css"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "bootstrap": "^5.3.3"
-  },
-  "devDependencies": {
-    "sass": "^1.77.4"
-  }
+    "name": "polarcs-website",
+    "version": "1.0.0",
+    "description": "Repo for PolarCodeSolutions's homepage",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "clean": "rm -rf dist/*",
+        "build": "npm run clean && sass src/scss:dist/css",
+        "watch": "sass --watch src/scss:dist/css",
+        "copy:css": "node copy-css.js",
+        "serve": "http-server dist -p 1337"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "bootstrap": "^5.3.3"
+    },
+    "devDependencies": {
+        "http-server": "^14.1.1",
+        "ncp": "^2.0.0",
+        "sass": "^1.77.4"
+    }
 }
